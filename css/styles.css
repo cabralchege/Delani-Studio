@@ -5,7 +5,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-bottom: 25px;
-
+float: center;
 }
 
 
@@ -15,3 +15,4 @@ h1{font-size: xx-large;
 }
 .services{background-image: url(/Resources/assets/backgrounds/s_image.jpg);
 }
+.services{font-size: medium;}
