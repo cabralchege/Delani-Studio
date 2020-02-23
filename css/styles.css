@@ -1,0 +1,14 @@
+.home{background-image: url(/Resources/assets/backgrounds/h_img.jpg);
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+
+h1{font-size: xx-large;
+    text-align: center;
+    color: aliceblue;
+}
