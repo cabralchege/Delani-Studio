@@ -4,7 +4,8 @@
  - CHEGE CABRAL
  
 ## Setup instructions 
-- 
+- Click on the pages live link
+- This takes you to the studios landing page
 
 
 ## Project Description 
@@ -13,7 +14,7 @@
 ## Setup/ Installation Requirements
 - Connect your computer or phone to the internet
 - Click the websites link
-- 
+
 
 ## Contact Info
 - Email: cabralowiro@gmail.com
