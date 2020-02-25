@@ -10,10 +10,10 @@ float: center;
 padding-bottom: 150px;
 padding-top: 150px;
 /* font-family: 'Lacquer', ; */
-/* font-family: 'Satisfy', ; */
+font-family: 'Satisfy', ;
 font-size: x-large;
 }
-
+.folio{text-emphasis: bold;}
 
 h1{font-size: xx-large;
     text-align: center;
