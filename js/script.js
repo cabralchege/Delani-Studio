@@ -4,9 +4,9 @@ $(Document).ready(function(){
         $(".design_image").hide();
         console.log("display paragraph")
     });
-    $("#dev_p").click(function(){
-        $(".dev_img").show();
-        $("#dev_p").hide();
+    $("#designs_p").click(function(){
+        $(".design_image").show();
+        $("#designs_p").hide();
     });   
     $(".dev_img").click(function() {
         $("#dev_p").show();

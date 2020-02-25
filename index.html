@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer|Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
     <title>Delani Studio</title>
 
         
@@ -19,24 +21,25 @@
               <h1>WELCOME</h1> 
               <h1>TO DELANI STUDIO</h1>
                     <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-                    <img src="/Resources/assets/mouse_click.png">
+                    <img src="/Resources/assets/mouse_click.png" class="mouse">
         </div>            
             
     </div>
-
-<div class="about" style="text-align: center;" style="background-color: white;">
-    <h1 class="about">ABOUT US</h1>
-        <p>When you work with us ,you are part of a team of comitted collaborators.All aspects of our software developement process are intergrated,interactive and agile.<br>
+<div class="container">
+    <div class="about" style="text-align: center;" style="background-color: white;">
+        <h1 class="about">ABOUT US</h1>
+            <p>When you work with us ,you are part of a team of comitted collaborators.All aspects of our software developement process are intergrated,interactive and agile.<br>
            Our approach unifies design,developement and product management to create exceptional products.<br>
            We start each project by understanding your business goals,the user's needs and the product requirements.<br>
            Then we help translate them into effective and elegant solutions.
-    </p>
+            </p>
+    </div>        
 </div>
 
 <div class="container-fluid">
     <div class="services" style="text-align: center;" style="color: white;">
-        <div class="row2"
-        <h1>SERVICES</h1>
+        <div class="row2">
+        <h1 id="serve">SERVICES</h1>
            <p style="color: white;">Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.<br>
             The outcome of this scooping session is proporsal or high level statement of work.<br>
             Based on your requirements, we can provide a complete offering or just the pieces you need.
@@ -46,30 +49,31 @@
 </div>
 
 <br>
+<div>
  <h1 id="what" style="color: black;">WHAT WE DO</h1><br>
     <div class="what">
         <div class=" text-center col-md-4">
-            <img src="/Resources/assets/services_icons/design_icon.png" id="design">
+            <img src="/Resources/assets/services_icons/design_icon.png" class="design_image">
             <h4>DESIGN</h4>
-                <p class="designs">Our design practice offers a full range of<br> services including brand
+                <p id="designs_p">Our design practice offers a full range of<br> services including brand
                 strategy,<br> interaction and visual design and user experience testing.<br> Throughout your project, <br>our designers create and
                 implement visual design and workflows,<br> solicit user feedback and work with you to
                 make<br> sure what gets built is what is needed.</p>
     </div>
 
     <div class=" text-center col-md-4">
-        <img src="/Resources/assets/services_icons/dev_icon.png" id="develop">
+        <img src="/Resources/assets/services_icons/dev_icon.png" class="dev_img">
         <h4>DEVELOPMENT</h4>
-        <p class="devt">All engineers are fluent in the latest enterprise,<br> mobile and web development
+        <p id="dev_p">All engineers are fluent in the latest enterprise,<br> mobile and web development
             technologies.<br>They
             collaborate with your team to write,<br>and improve code on a daily basis,<br>using proven
             practices
             such as test-driven development and<br>pair programming.</p>
     </div>
     <div class="text-center col-md-4">
-        <img src="/Resources/assets/services_icons/product_icon.png" id="products">
+        <img src="/Resources/assets/services_icons/product_icon.png" class="prod_img">
         <h4>PRODUCT MANAGEMENT</h4>
-        <P class="product">Planning and development is iterative.<br> Because we are constantly coding and
+        <P id="prod_p">Planning and development is iterative.<br> Because we are constantly coding and
             testing,<br>
             the
             products we build are always ready to go live.<br> This iterative process allows
@@ -78,6 +82,10 @@
         </P>
     </div>
 </div>
+</div>
+<br>
+<br>
+<br>
 <br>
 
 
@@ -126,7 +134,7 @@
         <h2>CONTACT US</h2>
         <form>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-10">
                     <input type="text" class="form-control" id="Name" placeholder="Name..."
                         style="background-color: transparent" style="text-emphasis-color: white">
                 </div>
@@ -173,8 +181,9 @@
 </div>
 
     
-
+<script src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>  
+  
 </body>
 </html>
