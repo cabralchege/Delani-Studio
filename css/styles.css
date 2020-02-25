@@ -31,11 +31,15 @@ padding-bottom: 150px;
 }
 .footer{font-size: medium;}
 
-#designs_p{
+#designs_p{font-size: medium;
     display: none;
 }
-#prod_p{display: none;}
-#dev_p{display: none;}
+#prod_p{display: none;
+    font-size: medium;
+}
+#dev_p{display: none;
+    font-size: medium;
+}
 h2{text-align: center;}
 .row{
     margin: 0 auto;
