@@ -8,8 +8,8 @@
 
 
 ## Project Description 
-- 
-- 
+- This is a studios landing page that shows its services portfolio and allows users to sign up to their site 
+
 ## Setup/ Installation Requirements
 - Connect your computer or phone to the internet
 - Click the websites link
@@ -29,4 +29,4 @@
 - An internet browser on your computer or phone 
 - Connection to the internet
 ## Project's Live Link
-- 
+- https://cabralchege.github.io/Delani-Studio/
