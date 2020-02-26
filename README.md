@@ -2,6 +2,10 @@
  - DELANI STUDIO
  ## Author's Name
  - CHEGE CABRAL
+
+ ## Description
+ - The website is astudios landing page 
+ - That takes a list of the subscribers visiting the page
  
 ## Setup instructions 
 - Click on the pages live link
@@ -27,7 +31,7 @@
 - HTML- Was used to display contents of the page
 - CSS- Was used to style the page
 - JavaScript-Was used style the page elements and bring out the responsiveness of the webpage
-- JQuery- used to create the hover and hide and show effects
+- JQuery- used to create the hover and hide and show effects 
 ## Technical Requirements
 - An internet browser on your computer or phone 
 - Connection to the internet
