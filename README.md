@@ -26,6 +26,7 @@
 - HTML- Was used to display contents of the page
 - CSS- Was used to style the page
 - JavaScript-Was used style the page elements and bring out the responsiveness of the webpage
+JQuery
 ## Technical Requirements
 - An internet browser on your computer or phone 
 - Connection to the internet
