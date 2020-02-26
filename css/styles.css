@@ -1,4 +1,4 @@
-.home{background-image: url(Resources/assets/backgrounds/h_img.jpg);
+.home{background-image: url(/Resources/assets/backgrounds/h_img.jpg);
 background-repeat: no-repeat;
 display: flex;
 flex-direction: column;
@@ -19,7 +19,7 @@ h1{font-size: xx-large;
     text-align: center;
     color: white;
 }
-.services{background-image: url(Resources/assets/backgrounds/s_image.jpg);
+.services{background-image: url(/Resources/assets/backgrounds/s_image.jpg);
 }
 .services{font-size: x-large;
 padding-top: 150px;
