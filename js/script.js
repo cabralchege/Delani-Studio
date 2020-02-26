@@ -26,8 +26,11 @@ $(Document).ready(function(){
         $(".prod_img").show();
         $("#prod_p").hide();
     });
-    $(button).click(function(){
-        var name = document.getElementById()
+    function submitForm(){
+        var name = document.getElementById("name").value;
+        var email =document.getElementById("email").value;
+        var message =document.getElementById("message".value)
+    }
 
-    })    
+    
 });
