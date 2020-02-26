@@ -25,5 +25,9 @@ $(Document).ready(function(){
     $("#prod_p").click(function(){
         $(".prod_img").show();
         $("#prod_p").hide();
-    });    
+    });
+    $(button).click(function(){
+        var name = document.getElementById()
+
+    })    
 });
