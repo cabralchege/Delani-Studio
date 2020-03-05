@@ -27,7 +27,7 @@ $(Document).ready(function(){
         $("#prod_p").hide();
     });
 
-    
+
     $(".four").hover(function () {
         $("#overlay4").show();
       })
@@ -101,11 +101,11 @@ $(Document).ready(function(){
             var Name = $('#Name').val();
             var Email = $('#Email').val();
             var Message = $('#Message');
-            var key ='43ab10333d46e19325f96d210ed40c49-us5';
+            var key ='1ad0f8cbb2c752fb6253acf04';
             if (Name == '' || Email == '' || Message == '') {
                 alert('Please make sure you have filled in the form correctly!');
             } else {
-                alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
+                alert(' Hi ' + Name + ' We have received your message. Thank you for contacting us.');
             }
     
         });
